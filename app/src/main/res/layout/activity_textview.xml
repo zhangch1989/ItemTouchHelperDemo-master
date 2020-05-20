@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zch.textview.AlignTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.2.1 可以接受
+      (i)在您的 App 中，出于购买或促销目的而展示您的其他 App，只要您的 App 不只是简单地罗列其他 App。
+      (ii)显示或推荐专为经批准的特定需求而设计的第三方 App（如健康管理、航空以及辅助功能等）。您的 App 应能提供持续不断的编辑内容，这样 App 看起来才不会只像是个摆设。
+      (iii)在租借期限结束后，禁止访问经批准的特定租借内容（例如电影、电视节目、音乐、图书）；所有其他项目服务不得存在过期时间。
+      (iv)Wallet 凭证可用于付款或接收付款、传输交易或是提供身份验证（例如电影票、优惠券和 VIP 凭据）。如将 Wallet 凭证用作其他用途，则可能会导致 App 被拒，Wallet 凭据也有可能被撤消。
+      (v) 保险类 App 必须免费提供，并且必须遵守 App 发布地区的相关法律，且不得使用 IAP。"
+        />
+
+</LinearLayout>

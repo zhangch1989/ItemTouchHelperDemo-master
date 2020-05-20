@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+   <Button
+       android:id="@+id/btn_drag"
+       android:layout_marginTop="32dp"
+       android:layout_width="match_parent"
+       android:text="简单拖拽Demo"
+       android:layout_height="56dp"/>
+
+    <Button
+        android:id="@+id/btn_channl"
+        android:layout_width="match_parent"
+        android:text="排序增删Demo"
+        android:layout_marginTop="16dp"
+        android:layout_height="56dp"/>
+
+    <Button
+        android:id="@+id/btn_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="循环ViewPager多动画展示"/>
+    <Button
+        android:id="@+id/btn_viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="标准ViewPager多动画展示"/>
+    <Button
+        android:id="@+id/btn_maplist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="仿地图列表抽屉展示功能"/>
+    <Button
+        android:id="@+id/btn_okhttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="OKHttp使用"/>
+    <Button
+        android:id="@+id/btn_uploadfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="附件上传及本地显示"/>
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ShareSDK分享测试"/>
+    <Button
+        android:id="@+id/btn_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="双向seekbar"/>
+    <Button
+        android:id="@+id/btn_slidemenus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="侧滑slidemenus"/>
+    <Button
+        android:id="@+id/btn_glide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="图片加载Glide"/>
+    <Button
+        android:id="@+id/btn_pageturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="图片翻页效果"/>
+    <Button
+        android:id="@+id/btn_picpageturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="图片翻页效果2"/>
+    <Button
+        android:id="@+id/btn_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="长文本自动换行"/>
+
+ </LinearLayout>
+</ScrollView>
+</LinearLayout>

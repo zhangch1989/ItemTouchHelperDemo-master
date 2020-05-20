@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_testhttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test http response"/>
+    <Button
+        android:id="@+id/btn_StringCallBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="btn_StringCallBack"/>
+    <Button
+        android:id="@+id/btn_MapParams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="btn_MapParams"/>
+    <Button
+        android:id="@+id/btn_MapListener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="btn_MapListener"/>
+    <Button
+        android:id="@+id/btn_downfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="btn_DownFile"/>
+
+</LinearLayout>
